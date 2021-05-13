@@ -19,7 +19,7 @@
         
         <div><form action="./lab3" method="post">
 
-                <input type="text" name="arrayLeng" placeholder="enter k"/>
+                <input type="text" name="arrayLength" placeholder="enter k"/>
                 <input type="submit" value="Ok"/>
             </form> 
         </div>

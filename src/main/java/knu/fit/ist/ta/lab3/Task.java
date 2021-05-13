@@ -34,19 +34,21 @@ public class Task {
         return result;
     }
 
-    public static int Arraycheck(int[] intArray) {
-        int counter = 0;
-        int n = intArray.length;
+    public static int[] Arraycheck(int[] intArray) {
+        int[] result = new int[intArray.length];
+        int n = result.length;
         for (int i = 0; i < n; i++) {
             if (isPrimeNumber(intArray[i])) {
-                counter++;
+                result[i] = 1;
+            } else {
+                result[i] = 0;
             }
         }
-        return counter;
+        return result;
     }
 
     public static boolean isPrimeNumber(int x) {
-        for (int i = 2; i < Math.sqrt(x) + 1; i++) {
+        for (int i = 2; i <= x; i++) {
             if (x % i == 0) {
                 return false;
             }

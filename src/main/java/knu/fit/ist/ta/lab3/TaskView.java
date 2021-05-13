@@ -1,4 +1,3 @@
-
 package knu.fit.ist.ta.lab3;
 
 import java.text.DecimalFormat;
@@ -6,7 +5,7 @@ import java.text.DecimalFormat;
 public class TaskView {
 
     private int[] startArray;
-    
+
     DecimalFormat df = new DecimalFormat("###.##");
 
     public String showResult(String kString) {
@@ -19,13 +18,13 @@ public class TaskView {
             return "Wrong k! It must be positive! Please try again.";
         } else {
             startArray = Task.massRand(k);
-            return df.format(Task.output(startArray));
+
+            return Task.output(startArray);
         }
     }
-    public String EndArray() {
-    
-        /*return Task.output(Task.Arraycheck(startArray));*/
-        int[] result = {1,2};
-        return Task.output(result);
+
+    public String resultCount() {
+
+        return "Кількість простих чисел: " + Task.output(Task.Arraycheck(startArray));
     }
 }
