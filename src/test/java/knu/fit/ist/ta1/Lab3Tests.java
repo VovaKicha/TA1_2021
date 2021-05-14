@@ -26,12 +26,12 @@ public class Lab3Tests {
 
     @Test
     void test2() {
-        assertEquals(false, Task.isPrimeNumber(b));
+        assertEquals(true, Task.isPrimeNumber(b));
     }
 
     @Test
     void test3() {
-        assertEquals(false, Task.isPrimeNumber(c));
+        assertEquals(true, Task.isPrimeNumber(c));
     }
 
     @Test
