@@ -22,10 +22,10 @@
         <h3 align = "center">3.Визначити кількість унікальних слів у тексті.</h3>
         <p align = "center"><%=request.getAttribute("setSize")%></p>
         
-        <h3 align = "center">4.Визначити перші 4 слів, що зустрічаються найчастіше.</h3>
+        <h3 align = "center">4.Визначити перші 8 слів, що зустрічаються найчастіше.</h3>
         <p align = "center"><%=request.getAttribute("6MostFrequentWords")%></p>
         
-        <h3 align = "center">5.Визначити кількість слів, що не містять літеру k.</h3>
+        <h3 align = "center">5.Визначити кількість слів, що не містять літеру s.</h3>
         <p align = "center"><%=request.getAttribute("AmountOfWordsWithoutV")%></p>
         
         <h3 align = "center">6.Визначити кількість слів, що мають рівно 4  літер.</h3>
