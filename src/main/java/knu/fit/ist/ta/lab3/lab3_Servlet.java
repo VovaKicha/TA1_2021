@@ -75,10 +75,10 @@ public class lab3_Servlet extends HttpServlet {
         
         TaskView taskView =  new TaskView();
         
-        String resultArray = taskView.showResult(request.getParameter("k"));
+        String resultArray = taskView.showResult(request.getParameter("arrayLength"));
         
         request.setAttribute("resultArray",resultArray);
-        String result = taskView.EndArray();
+        String result = taskView.resultCount();
         request.setAttribute("result",result);
         request.getRequestDispatcher("lab3.jsp").forward(request, response);
         
