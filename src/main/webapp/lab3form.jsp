@@ -15,7 +15,7 @@
         
         <h1>This is Laba 3</h1>
         <h1>Insert  the max k</h1>
-        <h1>diapazon massiva vid 1 do k</h1>
+        <h1>array range from 1 to k</h1>
         
         <div><form action="./lab3" method="post">
 
