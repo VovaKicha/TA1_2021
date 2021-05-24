@@ -7,7 +7,7 @@ package knu.fit.ist.ta.lab5;
 
 import java.util.Random;
 import org.springframework.stereotype.Service;
-import knu.flt.ist.ta.lab4.Text;
+import knu.fit.ist.ta.lab4.Text;
 
 /**
  *

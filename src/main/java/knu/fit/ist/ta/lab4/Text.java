@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package knu.flt.ist.ta.lab4;
+package knu.fit.ist.ta.lab4;
 
 import java.util.ArrayList;
 import java.util.Arrays;

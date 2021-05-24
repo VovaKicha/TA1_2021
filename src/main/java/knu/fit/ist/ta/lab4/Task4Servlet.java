@@ -39,7 +39,7 @@ public class Task4Servlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet Task4Servlet</title>");            
+            out.println("<title>Servlet Task4Servlet</title>");
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet Task4Servlet at " + request.getContextPath() + "</h1>");
@@ -74,22 +74,21 @@ public class Task4Servlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
         Task4 lab4t = new Task4();
         StringProcessing sp = new StringProcessing();
         StringMatching sm = new StringMatching();
         List list = sp.getList(sp.text);
         Set set = sp.getSet(sp.text);
-        
+
         request.setAttribute("list", list);
         request.setAttribute("cleanText", sp.getCleanText());
         request.setAttribute("listSize", list.size());
         request.setAttribute("setSize", set.size());
         request.setAttribute("6MostFrequentWords", sp.get8FirstWords(sp.text));
-        request.setAttribute("AmountOfWordsWithoutV", sp.getAmountWithoutS(sp.getText()));     
+        request.setAttribute("AmountOfWordsWithoutV", sp.getAmountWithoutS(sp.getText()));
         request.setAttribute("AmountOfWordsWith3UniqueLet", sp.getAmountWords4Letters(sp.getText()));
         request.setAttribute("find4MostPopular3Sequences", sp.getFiveMostPopularWords3Letters(sp.getText()));
-        
+
         request.getRequestDispatcher("lab4.jsp").forward(request, response);
     }
 

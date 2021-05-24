@@ -3,8 +3,7 @@
     Created on : 21.05.2021, 12:05:40
     Author     : Владимир
 --%>
-
-<%@page import="javafx.scene.text.Text"%>
+<%@page import="knu.fit.ist.ta.lab4.Text"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -17,7 +16,7 @@
 
         <div>
 
-            <form action="../lab5" method="post" align="center">
+            <form action="./lab5" method="post" align="center">
 
                 <%=text.cleanText(text.text)%>
 

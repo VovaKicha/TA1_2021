@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package knu.fit.ist.ta.lab5;
 
 import java.io.IOException;
@@ -27,6 +23,11 @@ public class Lab5Servlet extends HttpServlet {
 
     Lab5Task lab5task;
     
+    /**
+     *
+     * @param config
+     * @throws ServletException
+     */
     @Override
     public void init(ServletConfig config) throws ServletException {
 
@@ -95,14 +96,10 @@ public class Lab5Servlet extends HttpServlet {
 
     }
 
-    /**
-     * Returns a short description of the servlet.
-     *
-     * @return a String containing servlet description
-     */
+    
     @Override
     public String getServletInfo() {
         return "Short description";
-    }// </editor-fold>
+    }
 
 }
