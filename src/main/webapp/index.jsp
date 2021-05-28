@@ -18,33 +18,39 @@
 
         <div>
             <form action="lab1.jsp">
-            <input type="submit" value="Lab1">
+                <input type="submit" value="Lab1">
             </form> 
         </div> 
 
         <div>
             <form action="lab2form.jsp">
-            <input type="submit" value="Lab2">
+                <input type="submit" value="Lab2">
             </form> 
         </div> 
-        
+
         <div>
             <form action="lab3form.jsp">
-            <input type="submit" value="Lab3">
+                <input type="submit" value="Lab3">
             </form> 
         </div> 
-        
+
         <div>
             <form action="lab4form.jsp">
-            <input type="submit" value="Lab4">
+                <input type="submit" value="Lab4">
             </form> 
         </div> 
-        
+
         <div>
             <form action="lab5form.jsp">
-            <input type="submit" value="Lab5">
+                <input type="submit" value="Lab5">
             </form> 
         </div> 
-        
+
+        <div>
+            <form action="lab6-7form.jsp">
+                <input type="submit" value="Lab6-7">
+            </form> 
+        </div> 
+
     </body>
 </html>
