@@ -58,5 +58,13 @@
             </form> 
         </div> 
         
+        <div>
+            <form action="exam.jsp">
+                <input type="submit" value="EXAM">
+            </form> 
+        </div> 
+        
+        
+        
     </body>
 </html>
